@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header>
+
+
+        <nav></nav>
+
+        <div class="container p-4">
+
+           <div class="inner d-flex justify-content-between align-items-center mt-4 mx-2">
+
+            <input id="searchInput" type="text" class="form-control rounded-5 me-3 p-3 " placeholder="Find your location...">
+            <button class="btn rounded-5 py-3 px-5">Find</button>
+
+           </div>
+
+            <div class="cards text-center d-flex mx-2 mt-5 justify-content-between">
+
+                <div id="todayForecast" class="card  mt-3" >
+                    <div  class="card-header w-100 d-flex justify-content-between">
+                        <span id="todayName" class=""> </span>
+                        <span>
+                            <span id="todayDate"> </span>
+                        <span id="todayMonth"> </span>
+                        </span>
+                    </div>
+                    <div class="card-body d-flex flex-column justify-content-center">
+                      <p id="currentCity" class="main fw-bold fs-4">Cairo</p>
+                        <div  class="currentTemp d-flex justify-content-evenly align-items-center">
+                            <span>
+                                <span id="currentTemp" class="fs-1">16</span>
+                                <span class="fs-1 fw-bold" ><sup>o</sup>C</span>
+                            </span>
+                            <span ><img id="currentIcon" ></span>
+                           
+                        </div>  
+                      <p id="currentStatus" class="main main2">Clear</p>
+                      <div class="icons mt-2 ">
+                        <i class=" fa-solid fa-umbrella"></i><span id="humidity" >20%</span>
+                        <i class=" fa-solid fa-wind"></i><span id="wind">18 km/h</span>
+                        <i class=" fa-solid fa-compass"></i><span id="direction">East</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="nextDayForecast" class="card  mt-3" >
+                    <div class="nextDayName card-header">Thursday</div>
+                    <div class="card-body d-flex flex-column justify-content-center">
+                        <span >
+                            <img class="nextDayIcon" src="" alt="">
+                        </span>
+                        <span class="mb-2">
+                            <span class="nextDayMaxTemp mb-2 fs-4">16</span>
+                            <span class=" fs-4"><sup>o</sup>C</span>
+                        </span>
+                        <span class="mb-2">
+                            <span class="nextDayMinTemp fs-5 ">6</span>
+                            <span><sup>o</sup>C</span>
+                        </span>
+                       
+                      <p class="nextDayStatus">Clear</p>
+                    </div>
+                  </div>
+                  <div id="nextDayForecast" class="card  mt-3" >
+                    <div class="nextDayName card-header">Thursday</div>
+                    <div class="card-body d-flex flex-column justify-content-center">
+                        <span >
+                            <img class="nextDayIcon" src="" alt="">
+                        </span>
+                        <span class="mb-2">
+                            <span class="nextDayMaxTemp mb-2 fs-4">16</span>
+                            <span class=" fs-4"><sup>o</sup>C</span>
+                        </span>
+                        <span class="mb-2">
+                            <span class="nextDayMinTemp fs-5 ">6</span>
+                            <span><sup>o</sup>C</span>
+                        </span>
+                       
+                      <p class="nextDayStatus">Clear</p>
+                    </div>
+                  </div>
+
+                  
+
+            </div>
+
+          
+
+        </div>
+
+
+
+    </header>
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

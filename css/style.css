@@ -1,0 +1,43 @@
+
+header{
+
+height: 100vh;
+background-image: linear-gradient( rgba(0,0,0,.5) 0% 100% ) , url(../images/pexels-peng-liu-169647.jpg) ;
+background-size: contain;
+
+}
+
+.card{
+
+width: 30%;
+height: 300px;
+background-color: rgba(79, 79, 79, 0.4);
+backdrop-filter: blur(3px);
+color: white;
+
+
+}
+
+.main{
+
+text-align: left;
+
+}
+
+.icons i{
+
+margin: 10px;
+font-size: small;
+
+}
+
+.btn{
+
+    background-color:white;
+    color: rgb(0, 12, 44);
+
+}
+
+
+
+/* 0,12,44 */
